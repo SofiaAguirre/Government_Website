@@ -1,0 +1,164 @@
+/* Global */
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.contenedor {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+
+
+}
+
+nav {
+    background-image: url(http://farm9.staticflickr.com/8424/7537241496_95be3c968d_o.jpg);
+    background-size: cover;
+
+}
+
+nav ul li a {
+    color: white !important;
+}
+
+.dropdown-item {
+    color: black !important;
+}
+
+/* Header */
+.contenedor-portada {
+
+    width: 100%;
+    height: 10%;
+    top: 0;
+}
+
+.logo-main2 {
+    position: relative;
+    width: 280px;
+    height: 100px;
+    top: 0;
+    left: 2vh;
+}
+
+.logo-mail {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 13vh;
+    top: 1vh;
+}
+
+.text-mail {
+    top: 1vh;
+    position: absolute;
+    right: 1vh;
+}
+
+nav {
+    top: 0px;
+
+
+}
+
+/*Paragraph*/
+.texto-data {
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.title-data {
+    font-size: 30px;
+}
+
+.textS {
+    font-size: 18px;
+    width: 60%;
+    margin-bottom: 3vh;
+}
+
+.texts {
+    width: 65%;
+    font-size: 17px;
+    margin-top: 3vh;
+}
+
+/*Main, Table*/
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-right: 0 !important;
+}
+
+main {
+    margin-top: 7vh;
+}
+
+.title {
+    font-size: 25px;
+    position: relative;
+    text-align: right;
+    margin-top: 5vh;
+}
+
+.title1 {
+    font-size: 25px;
+    position: relative;
+    text-align: right;
+}
+
+.tabla1 {
+    position: relative;
+    top: -25vh;
+    right: -120vh;
+
+}
+
+/*Home*/
+.img-home {
+    position: relative;
+    top: 0vh;
+}
+
+/*Footer*/
+.contenedor-footer {
+    position: relative;
+    background-color: #e3f2fd;
+    padding: 10px 0 10px;
+    bottom: -15vh;
+    border: 1px solid #8c969e;
+}
+
+.text-footer {
+    position: relative;
+    text-align: center;
+}
+
+/*Responsive*/
+@media (max-width: 768px) {
+    .img-home {
+        width: 180px;
+        height: 180px;
+    }
+
+    .logo-mail {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        right: 9vh;
+        top: 5vh;
+    }
+
+    .text-mail {
+        top: 5vh;
+        position: absolute;
+        right: 1vh;
+    }
+
+}
