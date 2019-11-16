@@ -47,29 +47,28 @@ nav ul li a {
 }
 
 .logo-mail {
-    position: absolute;
+    
     width: 30px;
     height: 30px;
-    right: 13vh;
-    top: 1vh;
+    margin-right: 2vh;
 }
 
-.text-mail {
-    top: 1vh;
-    position: absolute;
-    right: 1vh;
-}
+
 
 nav {
     top: 0px;
 
-
+}
+.contacto{
+position: absolute;
+display: flex;
+right: 0;
+top: 0;
 }
 
 /*Paragraph*/
 .texto-data {
     font-family: 'Work Sans', sans-serif;
-
 }
 
 .title-data {
@@ -147,18 +146,13 @@ main {
         height: 180px;
     }
 
-    .logo-mail {
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        right: 9vh;
-        top: 5vh;
+}
+@media (max-width: 375px) {
+    .logo-main2 {
+       
+        width: 200px;
+        height: 80px;
+       
     }
-
-    .text-mail {
-        top: 5vh;
-        position: absolute;
-        right: 1vh;
-    }
-
+    
 }
